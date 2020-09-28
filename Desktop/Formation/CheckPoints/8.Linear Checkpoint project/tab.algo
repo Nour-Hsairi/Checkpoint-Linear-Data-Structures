@@ -93,7 +93,7 @@ Tc:htab.getkey[]
 FOR k FROM 0 TO length(Tc) STEP 1  DO
  summ:=0
     IF (htab.get(Tc[k])=2) THEN
-        summ+=Tc[k]
+        summ=(summ+Tc[k])*2
     END_IF
 END_FOR
 END
