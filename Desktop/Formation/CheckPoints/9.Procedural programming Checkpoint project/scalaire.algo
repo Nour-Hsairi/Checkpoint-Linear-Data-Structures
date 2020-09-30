@@ -46,8 +46,6 @@ BEGIN
         Write("All vectors are not Orthogonal!")
     END_IF
 END
-
-
 // Using Function
 FUNCTION dot_product(v1, v2: ARRAY_OF INTEGER): INTEGER
 VAR
